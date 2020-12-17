@@ -13,7 +13,7 @@ public class JamesBond {
 	
 	public static void main(String[] args) {
 		JamesBond jb=new JamesBond();
-			Vault v= new Vault();
+			Vault v= new Vault(908765);
 		
 		int c=jb.findCode(v);
 		System.out.println(c);
