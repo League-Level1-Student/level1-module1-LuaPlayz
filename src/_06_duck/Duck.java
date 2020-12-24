@@ -1,14 +1,14 @@
 package _06_duck;
 
 public class Duck {
-	int numberOfFriends=10;
+	int numberOfFriends;
 	String favoriteFood;
-	 void roar() {
-		 
+	 void quack() {
+		 System.out.println("duck quack");
 	 }
 	 
 	 void waddle() {
-		 
+		 System.out.println("duck waddle");
 		 
 	 }
 	 
@@ -17,3 +17,9 @@ public class Duck {
 	      	this.numberOfFriends = numberOfFriends;
 	}
 }
+
+	
+
+
+
+
